@@ -12,7 +12,10 @@ namespace MyMvcBrushUp.Controllers
         {
             return View();
         }
-
+        /// <summary>
+        /// /This is companys about Page
+        /// </summary>
+        /// <returns></returns>
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
